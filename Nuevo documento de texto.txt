@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PrettyFreaks</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#eventos">Eventos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#quienes-somos">Quienes Somos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="inicio">
+        <h1>Inicio</h1>
+        <p>Conoce a los miembros del equipo de PrettyFreaks:</p>
+        <div class="team-images">
+	<div>
+          <img src="img1.jpg" alt="Miembro 1">
+	<p class="team-name">Khildhür</p>
+	</div>
+	<div>
+          <img src="img2.jpg" alt="Miembro 2">
+	<p class="team-name">Davelock</p>
+	</div>
+	<div>
+          <img src="img3.jpg" alt="Miembro 3">
+	<p class="team-name">VikingMorich</p>
+	</div>
+	<div>
+	  <img src="img4.jpg" alt="Miembro 4">
+	<p class="team-name">QuimSolo</p>
+	</div>
+	<div>
+        </div>
+      </section>
+      <section id="eventos">
+        <h1>Eventos</h1>
+        <h2>Torneo Unmatched Figueres</h2>
+        <p>El próximo 18 de marzo de 2023 tendrá lugar el Torneo Unmatched Figueres. ¡No te lo pierdas!</p>
+      </section>
+      <section id="contacto">
+        <h1>Contacto</h1>
+        <form action="prettyfreaksunmatched@gmail.com" method="post">
+          <input type="email" placeholder="Correo electrónico">
+          <textarea placeholder="Mensaje"></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+      <section id="quienes-somos">
+        <h1>Quienes Somos</h1>
+        <p>PrettyFreaks es una empresa independiente de creación de contenidos de juegos de mesa fundada hace algunos años con el objetivo de innovar en el mundo de los juegos y brindar experiencias únicas a los jugadores.</p>
+      </section>
+    </main>
+  </body>
+</html>
